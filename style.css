@@ -23,7 +23,7 @@
 }
 
 .logo {
-    background-image: url("/images/logo.png");
+    background-image: url("logo.png");
     height: 57px;
     margin-top: 2px;
     border-radius:10px;
@@ -130,7 +130,7 @@ span {
 /** hero sectrion **/
 .hero-section {
     /* Header Image */
-    background-image: url('/Images/hero_image.jpg');
+    background-image: url('hero_image.jpg');
     width:100%;
     background-size: cover;
     height: 350px;
