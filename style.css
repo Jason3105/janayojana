@@ -7,22 +7,6 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-  /* Styles for tablets and small devices */
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  /* Styles for mobile phones */
-  .container {
-    font-size: 14px;
-    padding: 5px;
-  }
-}
-
 /** navbar **/
 .navbar {
     height: 60px;
@@ -293,3 +277,36 @@ li a:hover {
     margin-top: 5px;
     font-size: 0.8rem;
 }
+
+/* General mobile responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust text size for readability on smaller screens */
+    }
+
+    .container {
+        width: 100%; /* Make containers flexible */
+        padding: 10px; /* Add padding for mobile devices */
+    }
+
+    img {
+        max-width: 100%; /* Ensure images resize */
+        height: auto;
+    }
+
+    .header, .footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Any other specific sections that need mobile adjustments */
+    .main-content {
+        padding: 10px;
+    }
+
+    .nav {
+        display: block;
+        width: 100%;
+    }
+}
+
