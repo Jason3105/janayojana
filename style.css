@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit;        /* Removes the default blue color and inherits the text color */
+}
+
 /** navbar **/
 .navbar {
     height: 60px;
