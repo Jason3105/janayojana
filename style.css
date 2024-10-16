@@ -12,6 +12,11 @@ a {
     color: inherit;        /* Removes the default blue color and inherits the text color */
 }
 
+a:visited, a:hover, a:focus, a:active {
+    text-decoration: none; /* Ensures underline is removed for all states */
+    color: inherit;        /* Ensures color stays consistent */
+}
+
 /** navbar **/
 .navbar {
     height: 60px;
